@@ -1,0 +1,33 @@
+ @media screen and (max-width: 800px) {
+ 	body, html {
+		overflow: auto;
+	}
+	.bg-text {
+		width: 100%;
+		height: 100%;
+		border: none;
+	}
+	.card {
+		width: 100%;
+	}
+	.card-row {
+		width: 100%;
+	}
+	.nav-bar {
+		width:90%;
+	}
+	.nav-link {
+		height:64px;
+	}
+	.nav-cta {
+		height:64px;
+	}
+
+	/*roadmap*/	
+	.roadmap-container h3 {
+		width: 30%
+	}
+	.progress-back {
+		width: 70%
+	}
+}
