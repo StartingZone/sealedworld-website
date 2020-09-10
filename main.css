@@ -1,6 +1,5 @@
 body, html {
 	height: 100%;
-	overflow: hidden;
 	background-color: #000;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -64,7 +63,7 @@ body, html {
 	padding: 6px 0;
 	transition: all 0.3s ease;
 	color: #B3BCC0;
-	font-size: 20px;
+	font-size: length 33%;
 	border: 1px solid #B3BCC0;
 	text-decoration: none;
 }
@@ -82,7 +81,7 @@ body, html {
 	padding: 6px 0;
 	transition: all 0.3s ease;
 	color: black;
-	font-size: 20px;
+	font-size: length 33%;
 	background-color: #FFF6B0;
 	border: 1px solid #FFF6B0;
 	text-decoration: none;

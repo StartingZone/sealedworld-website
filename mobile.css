@@ -1,7 +1,4 @@
  @media screen and (max-width: 800px) {
- 	body, html {
-		overflow: auto;
-	}
 	.bg-text {
 		width: 100%;
 		height: 100%;
