@@ -1,0 +1,75 @@
+h1 {
+	color: #FFF6B0;
+}
+
+.rng-bar {
+	width:50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 12px;
+	overflow: auto;
+}
+
+.rng-button {
+	background-color: #333;
+	float: left;
+	text-align: center;
+	width: 50%;
+	padding: 6px 0;
+	transition: all 0.3s ease;
+	color: #B3BCC0;
+	font-size: length 33%;
+	border: 1px solid #B3BCC0;
+	text-decoration: none;
+}
+
+.rng-results li {
+	font-size: 24px;
+}
+.rng-results-text {
+	font-size: 24px;
+	color: #FFF6B0;
+}
+
+.generator-selector {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding: 6px 0;
+	transition: all 0.3s ease;
+	background-color: #333;
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	border: 1px solid #B3BCC0;
+	border-radius: 5px; /* 5px rounded corners */
+	color: #B3BCC0;
+}
+.generator-selector:hover {
+	background-color: #000;
+	border: 1px solid #FFF6B0;
+	color: #FFF6B0;
+}
+.generator-selector-half {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float:left;
+	width: 50%;
+	padding: 6px 0;
+	transition: all 0.3s ease;
+	background-color: #333;
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	border: 1px solid #B3BCC0;
+	border-radius: 5px; /* 5px rounded corners */
+	color: #B3BCC0;
+}
+.generator-selector-half:hover {
+	background-color: #000;
+	border: 1px solid #FFF6B0;
+	color: #FFF6B0;
+}

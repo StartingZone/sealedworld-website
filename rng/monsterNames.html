@@ -1,0 +1,165 @@
+<html>
+  <head>
+	<title>Monster Name Generator</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../mobile.css">
+    <link rel="stylesheet" href="../rng.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type=text/javascript>
+		function pickOne(data)
+		{ 
+			var index = Math.floor(Math.random() * data.length) 
+			return data[index];
+		}
+
+		function generate(count) {
+	        var ul = document.getElementById("resultsList");
+	        //remove all the existing children of the list
+	        while(ul.firstChild) ul.removeChild(ul.firstChild);
+
+	        for (var n=0;n<count;n++)
+	        {
+	        	var li=document.createElement('li');
+	        	li.innerHTML = li.innerHTML + pickOne(first) + pickOne(second);
+	        	ul.appendChild(li);
+	        }
+		}
+	</script>
+  </head>
+  <body>
+	<div class="bg-image"></div>
+
+	<div class="bg-text">
+		<h1>Monster Name Generator</h1>
+		<div class="nav-bar">
+			<a href="../rng.html" class="rng-button">Back to generators</a>
+			<a href="../index.html" class="rng-button">Back to home</a>
+		</div>
+		<p>What kind of foul beasts will you be fighting across Khaivarok? Well, ones with names like these!</p>
+		<div class="rng-bar">
+			<button onclick="generate(1)" class="rng-button">Generate one name</a>
+			<button onclick="generate(10)" class="rng-button">Generate 10 names</a>
+		</div>
+		<ul class="rng-results" id="resultsList">
+		</ul>
+	</div>
+
+	<script type="text/javascript"> 
+		var first = new Array 
+		first[0] = 'Gal' 
+		first[1] = 'Or' 
+		first[2] = 'Ax' 
+		first[3] = 'Slug' 
+		first[4] = 'Gor' 
+		first[5] = 'Scar' 
+		first[6] = 'Chil' 
+		first[7] = 'Bi' 
+		first[8] = 'Blow' 
+		first[9] = 'Bo' 
+		first[10] = 'Bur' 
+		first[11] = 'Flop' 
+		first[12] = 'Flo' 
+		first[13] = 'Frig' 
+		first[14] = 'Ga' 
+		first[15] = 'Glo' 
+		first[16] = 'Glu' 
+		first[17] = 'Ig' 
+		first[18] = 'Cac' 
+		first[19] = 'Kap'
+		first[20] = 'Mag'
+		first[21] = 'Mi'
+		first[22] = 'Mop'
+		first[23] = 'Mum'
+		first[24] = 'No'
+		first[25] = 'Nu'
+		first[26] = 'Pter'
+		first[27] = 'Pun'
+		first[28] = 'Rok'
+		first[29] = 'San'
+		first[30] = 'Tur'
+		first[31] = 'Arb'
+		first[32] = 'Ala'
+		first[33] = 'Fli'
+		first[34] = 'Aye'
+		first[35] = 'Rath'
+		first[36] = 'Nar'
+		first[37] = 'Hyr'
+		first[38] = 'Vash'
+		first[39] = 'Bol'
+		first[40] = 'Bal'
+		first[41] = 'Balam'
+		first[42] = 'Jil'
+		first[43] = 'Dio'
+		first[44] = 'Erg'
+		first[45] = 'Rax'
+		first[46] = 'Prow'
+		first[47] = 'Kel'
+		first[48] = 'Keth'
+		first[49] = 'Sal'
+		first[50] = 'Rab'
+		first[51] = 'Ug'
+		first[52] = 'Fu'
+		first[53] = 'Pum'
+		first[54] = 'Li'
+		first[55] = 'Paw'
+
+        var second = new Array 
+        second[0] = 'bo' 
+        second[1] = 'by' 
+        second[2] = 'it' 
+        second[3] = 'er'
+        second[4] = 'o'
+        second[5] = 'y'
+        second[6] = 'ite'
+        second[7] = 'ift'
+        second[8] = 'ren'
+        second[9] = 'fy'
+        second[10] = 'do'
+        second[11] = 'ly'
+        second[12] = 'ber'
+        second[13] = 'nis'
+        second[14] = 'cha'
+        second[15] = 'ra'
+        second[16] = 'is'
+        second[17] = 'bon'
+        second[18] = 'om'
+        second[19] = 'lin'
+        second[20] = 'nus'
+        second[21] = 'ti'
+        second[22] = 'ny'
+        second[23] = 'iel'
+        second[24] = 'maw'
+        second[25] = 'noll'
+        second[26] = 'aw'
+        second[27] = 'oo'
+        second[28] = 'ran'
+        second[29] = 'zo'
+        second[30] = 'shy'
+        second[31] = 'ky'
+        second[32] = 'ban'
+        second[33] = 'kit'
+        second[34] = 'gish'
+        second[35] = 'ment'
+        second[36] = 'art'
+        second[37] = 'ik'
+        second[38] = 'up'
+        second[39] = 'lum'
+        second[40] = 'this'
+        second[41] = 'oll'
+        second[42] = 'rok'
+        second[43] = 'this'
+        second[44] = 'tar'
+        second[45] = 'wot'
+        second[46] = 'tan'
+        second[47] = 'bit'
+        second[48] = 'ko'
+        second[49] = 'ile'
+        second[50] = 'a'
+        second[51] = 'on'
+        second[52] = 'paw'
+
+        generate(1);
+	</script>
+  </body>
+</html>

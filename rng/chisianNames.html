@@ -1,0 +1,185 @@
+<html>
+  <head>
+	<title>Chisian Name Generator</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../mobile.css">
+    <link rel="stylesheet" href="../rng.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type=text/javascript>
+		function pickOne(data)
+		{ 
+			var index = Math.floor(Math.random() * data.length) 
+			return data[index];
+		}
+
+		function generate(count) {
+	        var ul = document.getElementById("resultsList");
+	        //remove all the existing children of the list
+	        while(ul.firstChild) ul.removeChild(ul.firstChild);
+
+	        for (var n=0;n<count;n++)
+	        {
+	        	var li=document.createElement('li');
+	        	li.innerHTML = li.innerHTML + pickOne(first) + pickOne(second);
+	        	ul.appendChild(li);
+	        }
+		}
+	</script>
+  </head>
+  <body>
+	<div class="bg-image"></div>
+
+	<div class="bg-text">
+		<h1>Chisian Name Generator</h1>
+		<div class="nav-bar">
+			<a href="../rng.html" class="rng-button">Back to generators</a>
+			<a href="../index.html" class="rng-button">Back to home</a>
+		</div>
+		<p>Chisians are adept explorers and diplomats and frequently have names like this!</p>
+		<div class="rng-bar">
+			<button onclick="generate(1)" class="rng-button">Generate one name</a>
+			<button onclick="generate(10)" class="rng-button">Generate 10 names</a>
+		</div>
+		<ul class="rng-results" id="resultsList">
+		</ul>
+	</div>
+
+  	<script type="text/javascript"> 
+		var first = new Array 
+		first[0] = 'Ar' 
+		first[1] = 'Ad' 
+		first[2] = 'Adol' 
+		first[3] = 'Adrian' 
+		first[4] = 'Alex' 
+		first[5] = 'Alf' 
+		first[6] = 'Alfr' 
+		first[7] = 'Afons' 
+		first[8] = 'Amad' 
+		first[9] = 'Andr' 
+		first[10] = 'Anton' 
+		first[11] = 'Arcad' 
+		first[12] = 'Art' 
+		first[13] = 'Carl' 
+		first[14] = 'Cris' 
+		first[15] = 'Corn' 
+		first[16] = 'Dam' 
+		first[17] = 'Dav' 
+		first[18] = 'Dion' 
+		first[19] = 'Edm'
+		first[20] = 'Ed'
+		first[21] = 'El'
+		first[22] = 'Man'
+		first[23] = 'Eug'
+		first[24] = 'Eust'
+		first[25] = 'Franc'
+		first[26] = 'Fred'
+		first[27] = 'Gav'
+		first[28] = 'Jorg'
+		first[29] = 'Ger'
+		first[30] = 'Greg'
+		first[31] = 'Har'
+		first[32] = 'Henr'
+		first[33] = 'Herb'
+		first[34] = 'Hon'
+		first[35] = 'Hor'
+		first[36] = 'Hug'
+		first[37] = 'Is'
+		first[38] = 'Jac'
+		first[39] = 'Thiag'
+		first[40] = 'Jerem'
+		first[41] = 'Jer'
+		first[42] = 'Jeron'
+		first[43] = 'Jon'
+		first[44] = 'Jos'
+		first[45] = 'Jul'
+		first[46] = 'Laur'
+		first[47] = 'Laz'
+		first[48] = 'Marc'
+		first[49] = 'Mart'
+		first[50] = 'Mig'
+		first[51] = 'Nic'
+		first[52] = 'Otav'
+		first[53] = 'Orf'
+		first[54] = 'Osc'
+		first[55] = 'Osv'
+		first[56] = 'Plut'
+		first[57] = 'Paul'
+		first[58] = 'Filip'
+		first[59] = 'Raf'
+		first[60] = 'Ric'
+		first[61] = 'Rob'
+		first[62] = 'Rod'
+		first[63] = 'Estan'
+		first[64] = 'Est'
+		first[65] = 'Tom'
+		first[66] = 'Vit'
+		first[67] = 'Guil'
+		first[68] = 'Gyl'
+		first[69] = 'Am'
+		first[70] = 'Ang'
+		first[71] = 'Dorot'
+		first[72] = 'Leon'
+		first[73] = 'Elis'
+		first[74] = 'Fel'
+		first[75] = 'Luc'
+		first[76] = 'Madal'
+		first[77] = 'Marg'
+		first[78] = 'Sof'
+		first[79] = 'Silv'
+		first[80] = 'Ter'
+
+        var second = new Array 
+        second[0] = 'ao' 
+        second[1] = 'o' 
+        second[2] = 'andre' 
+        second[3] = 'edo'
+        second[4] = 'eu'
+        second[5] = 'e'
+        second[6] = 'io'
+        second[7] = 'ur'
+        second[8] = 'os'
+        second[9] = 'ano'
+        second[10] = 'elio'
+        second[11] = 'i'
+        second[12] = 'isio'
+        second[13] = 'undo'
+        second[14] = 'uardo'
+        second[15] = 'ias'
+        second[16] = 'uel'
+        second[17] = 'enio'
+        second[18] = 'isco'
+        second[19] = 'erico'
+        second[20] = 'ico'
+        second[21] = 'ino'
+        second[22] = 'aldo'
+        second[23] = 'orio'
+        second[24] = 'oldo'
+        second[25] = 'ana'
+        second[26] = 'ique'
+        second[27] = 'erto'
+        second[28] = 'acio'
+        second[29] = 'aias'
+        second[30] = 'imo'
+        second[31] = 'aro'
+        second[32] = 'os'
+        second[33] = 'uel'
+        second[34] = 'ar'
+        second[35] = 'andra'
+        second[36] = 'ada'
+        second[37] = 'ela'
+        second[38] = 'ica'
+        second[39] = 'ota'
+        second[40] = 'ina'
+        second[41] = 'eia'
+        second[42] = 'or'
+        second[43] = 'ete'
+        second[44] = 'ade'
+        second[45] = 'efa'
+        second[46] = 'isa'
+        second[47] = 'ia'
+
+        generate(1);
+	</script>
+  </body>
+</html>
