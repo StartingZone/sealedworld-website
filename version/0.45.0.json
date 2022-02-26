@@ -1,0 +1,17 @@
+{"detailedVersion":[
+	{"headerText":"Content","group":[
+		{"note":"Three tutorial areas for Chisians, Humans, and Raskaar. Goblin tutorial area will come at a later date, for now they use the Chisian tutorial area."},
+		{"note":"All content level 1-10 is complete."},
+		{"note":"The current level cap is 12 and will be raised as more content is added."}
+	]}
+	{"headerText":"Classes","group":[
+		{"note":"All eight playable classes, with 25 skills each."},
+		{"note":"Level 2 and 7 class quests for all eight classes."},
+	]}
+	{"headerText":"Multiplayer","group":[
+		{"note":"exists now."}
+	]}
+	{"headerText":"Bug fixes","group":[
+		{"note":"Genuinely more than I can remember."}
+	]}
+]}
