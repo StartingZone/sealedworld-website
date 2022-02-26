@@ -1,0 +1,137 @@
+<html>
+  <head>
+	<title>Human Name Generator</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../mobile.css">
+    <link rel="stylesheet" href="../rng.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type=text/javascript>
+		function pickOne(data)
+		{ 
+			var index = Math.floor(Math.random() * data.length) 
+			return data[index];
+		}
+
+		function generate(count) {
+	        var ul = document.getElementById("resultsList");
+	        //remove all the existing children of the list
+	        while(ul.firstChild) ul.removeChild(ul.firstChild);
+
+	        for (var n=0;n<count;n++)
+	        {
+	        	var li=document.createElement('li');
+	        	li.innerHTML = li.innerHTML + pickOne(first) + pickOne(second);
+	        	ul.appendChild(li);
+	        }
+		}
+	</script>
+  </head>
+  <body>
+	<div class="bg-image"></div>
+
+	<div class="bg-text">
+		<h1>Human Name Generator</h1>
+		<div class="nav-bar">
+			<a href="../rng.html" class="rng-button">Back to generators</a>
+			<a href="../index.html" class="rng-button">Back to home</a>
+		</div>
+		<p>The Humans from the mountains are smart magic users, and they've got names like this!</p>
+		<div class="rng-bar">
+			<button onclick="generate(1)" class="rng-button">Generate one name</a>
+			<button onclick="generate(10)" class="rng-button">Generate 10 names</a>
+		</div>
+		<ul class="rng-results" id="resultsList">
+		</ul>
+	</div>
+	
+	<script type="text/javascript"> 
+		var first = new Array 
+		first[0] = 'Ai' 
+		first[1] = 'Aka' 
+		first[2] = 'Aki' 
+		first[3] = 'Am' 
+		first[4] = 'Aya' 
+		first[5] = 'Bo' 
+		first[6] = 'Cai' 
+		first[7] = 'Ca' 
+		first[8] = 'Chi' 
+		first[9] = 'Da' 
+		first[10] = 'Etsu' 
+		first[11] = 'Fuji' 
+		first[12] = 'Gi' 
+		first[13] = 'Ha' 
+		first[14] = 'Hiro' 
+		first[15] = 'Hi' 
+		first[16] = 'Ho' 
+		first[17] = 'I' 
+		first[18] = 'Ji' 
+		first[19] = 'Kae'
+		first[20] = 'Kai'
+		first[21] = 'Kame'
+		first[22] = 'Kana'
+		first[23] = 'Ka'
+		first[24] = 'Ke'
+		first[25] = 'Kei'
+		first[26] = 'Ki'
+		first[27] = 'Kiyo'
+		first[28] = 'Koha'
+		first[29] = 'Kyo'
+		first[30] = 'Lei'
+		first[31] = 'Ma'
+		first[32] = 'Machi'
+		first[33] = 'Mai'
+		first[34] = 'Mamo'
+		first[35] = 'Masa'
+		first[36] = 'Maya'
+		first[37] = 'Mayo'
+		first[38] = 'Mayu'
+		first[39] = 'Miho'
+		first[40] = 'Mi'
+		first[41] = 'Miki'
+		first[42] = 'Mina'
+		first[43] = 'Misa'
+		first[44] = 'Mitsu'
+		first[45] = 'Miyo'
+		first[46] = 'Momo'
+		first[47] = 'Mutsu'
+		first[48] = 'Naho'
+		first[49] = 'Nami'
+		first[50] = 'Nana'
+		first[51] = 'Nao'
+		first[52] = 'Natsu'
+		first[53] = 'No'
+		first[54] = 'Omi'
+		first[55] = 'Rai'
+		first[55] = 'Gara'
+
+        var second = new Array 
+        second[0] = 'llo' 
+        second[1] = 'ne' 
+        second[2] = 'ccio' 
+        second[3] = 'zzo'
+        second[4] = 'sso'
+        second[5] = 'to'
+        second[6] = 'ti'
+        second[7] = 'cco'
+        second[8] = 'ro'
+        second[9] = 'si'
+        second[10] = 'go'
+        second[11] = 'ghi'
+        second[12] = 'te'
+        second[13] = 'tti'
+        second[14] = 'di'
+        second[15] = 'sco'
+        second[16] = 'zzi'
+        second[17] = 'nti'
+        second[18] = 'ni'
+        second[19] = 'cci'
+        second[20] = 'ccia'
+        second[21] = 's'
+        second[22] = 'ce'
+        second[22] = 'tto'
+
+        generate(1);
+	</script>
+  </body>
+</html>

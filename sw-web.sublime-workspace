@@ -1,0 +1,451 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gener",
+				"generate"
+			],
+			[
+				"surface-d",
+				"surface-dwellers"
+			],
+			[
+				"alig",
+				"align-self\tproperty"
+			],
+			[
+				"back",
+				"background-clip\tproperty"
+			],
+			[
+				"al",
+				"align-content\tproperty"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2937,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.css",
+			"settings":
+			{
+				"buffer_size": 2761,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"depe",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"depend",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"packag",
+				"Package Control: Remove Repository"
+			],
+			[
+				"Package Control: add re",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"orgmode",
+				"Set Syntax: orgmode"
+			],
+			[
+				"Package Control: install package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: disco",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 148.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/hugh/Web/SealedWorld"
+	],
+	"file_history":
+	[
+		"/home/hugh/Web/SealedWorld/rng/classPicker.html",
+		"/home/hugh/Web/SealedWorld/rng.css",
+		"/home/hugh/Web/SealedWorld/rng/koboldNames.html",
+		"/home/hugh/Web/SealedWorld/rng/raskaarNames.html",
+		"/home/hugh/Web/SealedWorld/rng/goblinNames.html",
+		"/home/hugh/Web/SealedWorld/rng/monsterNames.html",
+		"/home/hugh/Web/SealedWorld/rng.html",
+		"/home/hugh/Web/SealedWorld/index.html",
+		"/home/hugh/Gamedev/Projects/SealedWorld/Notes/test.oxt",
+		"/home/hugh/Web/SealedWorld/rng/humanNames.html",
+		"/home/hugh/Web/SealedWorld/rng/chisianNames.html",
+		"/home/hugh/Web/SealedWorld/roadmap.css",
+		"/home/hugh/Web/SealedWorld/main.css",
+		"/home/hugh/Web/SealedWorld/rng/humanNames",
+		"/home/hugh/Web/SealedWorld/roadmap.html",
+		"/home/hugh/Web/Homepage/NewRaskaarNamer.html",
+		"/home/hugh/Games/world-of-warcraft-classic/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Gotcha/main.lua",
+		"/home/hugh/Games/world-of-warcraft-classic/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Gotcha/Gotcha.toc",
+		"/home/hugh/Projects/UIplz/src/ImGui.NET.SampleProgram/Program.cs",
+		"/home/hugh/Projects/UIplz/main.cpp",
+		"/home/hugh/Projects/UIplz/other.cpp",
+		"/home/hugh/.config/sublime-text-3/Packages/User/C++.sublime-build",
+		"/home/hugh/Downloads/CirrusGame-master/Cirrus/CEditor/EditorGame.cs",
+		"/home/hugh/Downloads/CirrusGame-master/Cirrus/CEditor/Program.cs",
+		"/home/hugh/Downloads/CirrusGame-master/Cirrus/CEditor/DrawVertDeclaration.cs",
+		"/home/hugh/Gamedev/Projects/SealedWorld/Notes/Feedback.todo",
+		"/home/hugh/Gamedev/Projects/SealedWorld/Notes/scriptinfo.todo",
+		"/home/hugh/Gamedev/Projects/SealedWorld/Notes/b40todo.todo",
+		"/home/hugh/Desktop/Barrens quest text.kb",
+		"/home/hugh/Desktop/good samples.txt",
+		"/home/hugh/Gamedev/Projects/SealedWorld/Notes/Knowledge Base/bestiary.kb",
+		"/home/hugh/Gamedev/Projects/SealedWorld/Assets/Resources/Localization/en.json",
+		"/media/hugh/Hard Drive/Music/Playlists/Oldschool.M3U8",
+		"/home/hugh/Gamedev/Projects/SealedWorld/Notes/Lore/test.lore",
+		"/home/hugh/Gamedev/Projects/SealedWorld/Notes/networkdevelopment.todo",
+		"/home/hugh/.config/sublime-text-3/Packages/User/lore.sublime-syntax",
+		"/home/hugh/Gamedev/Projects/SealedWorld/Notes/tasks.todo",
+		"/home/hugh/Gamedev/Projects/SealedWorld/Notes/tasks-archive.todo",
+		"/home/hugh/Desktop/loreganized.kb",
+		"/media/hugh/Hard Drive/Music/Playlists/hhc.M3U8",
+		"/home/hugh/Gamedev/Projects/SealedWorld/Notes/notebook.kb",
+		"/home/hugh/Gamedev/Projects/SealedWorld/Notes/Lore/assortment.kb",
+		"/home/hugh/Gamedev/Projects/SealedWorld/Notes/Knowledge Base/Trade skills/Cooking.kb",
+		"/home/hugh/Gamedev/Projects/SealedWorld/Notes/Knowledge Base/Trade skills/Carpentry.kb",
+		"/home/hugh/Gamedev/Projects/SealedWorld/Notes/Knowledge Base/Trade skills/Blacksmithing.kb",
+		"/home/hugh/Gamedev/Projects/SealedWorld/Notes/longterm.todo",
+		"/home/hugh/Gamedev/Projects/SealedWorld/Notes/weaponSprites.todo",
+		"/home/hugh/.config/sublime-text-3/Packages/User/kb.sublime-syntax",
+		"/home/hugh/Gamedev/Projects/SealedWorld/Notes/NoteArchive.kb",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/armorSets.todo",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/weaponSprites.todo",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/manual.tex",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/Knowledge Base/Trade skills/Alchemy.kb",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/Knowledge Base/Trade skills/Herblore.kb",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/Knowledge Base/Trade skills/Carpentry.kb",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/Feedback.todo",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/Knowledge Base/Trade skills/Tailoring.kb",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/Knowledge Base/skills.kb",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/scratch.todo",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/Knowledge Base/quests.todo",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/Knowledge Base/guide-mountain.todo",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/Knowledge Base/Blacksmithing.kb",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/Knowledge Base/Trade skills/Cooking.kb",
+		"/home/harrs/Web/Homepage/timekill.html",
+		"/home/harrs/Web/Homepage/index.html",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/archive.todo",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/Knowledge Base/guide-desert.todo",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/sealedworld.kb",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/Knowledge Base/bestiary.kb",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/notebook.kb",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/longterm.todo",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/Item Icons.txt",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/sealedworld.sublime-project",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/weekly.todo",
+		"/home/harrs/Desktop/swplaytest-fel.txt",
+		"/media/harrs/Hard Drive1/RPGCam.cs",
+		"/home/harrs/Desktop/ShipItData.cs",
+		"/home/harrs/Desktop/ShipIt.cs",
+		"/home/harrs/Web/weatherapp/main.js",
+		"/home/harrs/Web/weatherapp/index.html",
+		"/home/harrs/Web/weatherapp/main.css",
+		"/home/harrs/.config/sublime-text-3/Packages/User/todo.sublime-syntax",
+		"/home/harrs/.config/sublime-text-3/Packages/User/kb.sublime-syntax",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/beta.cal",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/beta.todo",
+		"/home/harrs/.config/sublime-text-3/Packages/User/cal.sublime-syntax",
+		"/home/harrs/.config/sublime-text-3/Packages/User/cal.sublime-settings",
+		"/home/harrs/.config/sublime-text-3/Packages/User/td.sublime-syntax",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Notes/kanban.org",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Assets/Resources/Localization/en.json",
+		"/home/harrs/Dropbox/Text/Org/SW - new quests.org",
+		"/home/harrs/full bestiary.txt",
+		"/home/harrs/Desktop/playtestingnotes-july2019",
+		"/home/harrs/.config/sublime-text-3/Packages/orgmode/messages/install.org",
+		"/home/harrs/Web/nsw/sealed-world-online/_layouts/page.html",
+		"/home/harrs/Web/nsw/sealed-world-online/index.md",
+		"/home/harrs/Web/nsw/sealed-world-online/blog.md",
+		"/home/harrs/Web/nsw/sealed-world-online/assets/css/main.css",
+		"/home/harrs/Web/nsw/sealed-world-online/assets/css/summer.css",
+		"/home/harrs/Web/nsw/sealed-world-online/_posts/2019-05-12-test-post.markdown",
+		"/home/harrs/Web/nsw/sealed-world-online/_data/navigation.yml",
+		"/home/harrs/Web/nsw/sealed-world-online/media.md",
+		"/home/harrs/Web/nsw/sealed-world-online/_layouts/post.html",
+		"/home/harrs/Web/nsw/sealed-world-online/_layouts/home.html",
+		"/home/harrs/Web/nsw/sealed-world-online/_layouts/directory.html",
+		"/home/harrs/Web/nsw/sealed-world-online/_posts/2019-05-12-its-alive.markdown",
+		"/home/harrs/Web/nsw/sealed-world-online/_layouts/default.html",
+		"/home/harrs/Web/nsw/sealed-world-online/_includes/header.html",
+		"/home/harrs/Web/nsw/sealed-world-online/_config.yml",
+		"/home/harrs/Web/nsw/sealed-world-online/_posts/2019-05-12-welcome-to-jekyll.markdown",
+		"/home/harrs/Web/nsw/sealed-world-online/_posts/2019-05-12-test-post.md",
+		"/home/harrs/Web/nsw/sealed-world-online/_includes/footer.html",
+		"/home/harrs/Web/nsw/sealed-world-online/about.md",
+		"/home/harrs/Web/nsw/sealed-world-online/_layouts/default",
+		"/home/harrs/Dropbox/Text/Org/Idea Inbox.org",
+		"/media/harrs/Hard Drive/Text/Sublime/Sealed World/Post-game planing. 0-50",
+		"/home/harrs/Dropbox/Text/Orgmode/Crafting.org",
+		"/media/harrs/Hard Drive/Text/Sublime/Sealed World/Planning/ContentPlanner.org",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Assets/Resources/Localization/English/Dialog.xml",
+		"/media/harrs/My Passport/Stuff for the new computer/Web/bookmarks-2018-11-17.json",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Assets/StreamingAssets/Localization/en.json",
+		"/home/harrs/Dropbox/Text/SealedWorldNames.xml",
+		"/media/harrs/Hard Drive/jetbrains",
+		"/media/harrs/Hard Drive/Text/Sublime/Sealed World/Planning/ProjectManagement.org",
+		"/home/harrs/Gamedev/Projects/SealedWorld/Assets/Resources/Localization/English/UI.xml",
+		"/media/harrs/Hard Drive/Text/Sublime/Sealed World/Planning/Bugtracker.org",
+		"/home/harrs/Dropbox/Text/Orgmode/Skills.org",
+		"/media/harrs/Hard Drive/Text/Sublime/Sealed World/Planning/chisiadirections.txt"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"vone",
+			"cone"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"vowel",
+			"consonant"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2937,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								921,
+								921
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1509,
+								1509
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 867.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 50.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/C++.sublime-build",
+	"project": "sw-web.sublime-project",
+	"replace":
+	{
+		"height": 94.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 176.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

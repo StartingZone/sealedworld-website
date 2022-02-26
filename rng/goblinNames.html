@@ -1,0 +1,146 @@
+<html>
+  <head>
+	<title>Goblin Name Generator</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../mobile.css">
+    <link rel="stylesheet" href="../rng.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type=text/javascript>
+		function pickOne(data)
+		{ 
+			var index = Math.floor(Math.random() * data.length) 
+			return data[index];
+		}
+
+		function generate(count) {
+	        var ul = document.getElementById("resultsList");
+	        //remove all the existing children of the list
+	        while(ul.firstChild) ul.removeChild(ul.firstChild);
+
+	        for (var n=0;n<count;n++)
+	        {
+	        	var li=document.createElement('li');
+	        	var word = new Array
+	        	var rng = Math.floor(Math.random() * 2)
+	        	var useVowel = rng == 0;
+	        	rng = Math.floor(Math.random() * 4)
+	        	for(var i = 0; i < rng + 3; i++) {
+	        		if(useVowel) {
+	        			word.push(pickOne(vowel));
+	        		} else {
+	        			word.push(pickOne(consonant));
+	        		}
+	        		useVowel = !useVowel;
+	        	}
+
+	        	if(leftReliantConsonants.includes(word[0])) {
+	        		//insert a vowel in front
+	        		word.unshift(pickOne(vowel));
+	        	}
+
+	        	if(rightReliantConsonants.includes(word[word.length - 1])) {
+	        		//insert a vowel at the end
+	        		word.push(pickOne(vowel));
+	        	}
+
+	        	var final = '';
+	        	for(var i = 0; i < word.length; i++) {
+	        		final = final + word[i];
+	        	}
+	        	final = final.charAt(0).toUpperCase() + final.slice(1);
+
+	        	li.innerHTML = li.innerHTML + final;
+	        	ul.appendChild(li);
+	        }
+		}
+	</script>
+  </head>
+  <body>
+	<div class="bg-image"></div>
+
+	<div class="bg-text">
+		<h1>Goblin Name Generator</h1>
+		<div class="nav-bar">
+			<a href="../rng.html" class="rng-button">Back to generators</a>
+			<a href="../index.html" class="rng-button">Back to home</a>
+		</div>
+		<p>Deep within the dark caves of Khaivarok the goblins... well they're doing something. And they have these names!</p>
+		<div class="rng-bar">
+			<button onclick="generate(1)" class="rng-button">Generate one name</a>
+			<button onclick="generate(10)" class="rng-button">Generate 10 names</a>
+		</div>
+		<ul class="rng-results" id="resultsList">
+		</ul>
+	</div>
+
+	<script type="text/javascript">
+		var consonant = new Array
+        consonant[0] = 'gr' 
+        consonant[1] = 'gl' 
+        consonant[2] = 'x' 
+        consonant[3] = 'z' 
+        consonant[4] = 'zt' 
+        consonant[5] = 'b' 
+        consonant[6] = 'bl' 
+        consonant[7] = 'r' 
+        consonant[8] = 'rt' 
+        consonant[9] = 'rk' 
+        consonant[10] = 'rg' 
+        consonant[11] = 'rl'
+        consonant[12] = 'l'
+        consonant[13] = 'lb'
+        consonant[14] = 'lz'
+        consonant[15] = 'lx'
+        consonant[16] = 'lg'
+        consonant[17] = 't'
+        consonant[18] = 'tr'
+        consonant[19] = 'tz'
+        consonant[20] = 'k'
+        consonant[21] = 'kr'
+        consonant[22] = 'kl'
+        consonant[23] = 'kz'
+        consonant[24] = 'n'
+        consonant[25] = 'ng'
+        consonant[26] = 'nx'
+        consonant[27] = 'nz'
+        consonant[28] = 'nb'
+        consonant[29] = 'nt'
+        consonant[30] = 'nk'
+        consonant[31] = 'g'
+
+		var leftReliantConsonants = new Array
+        leftReliantConsonants[0] = 'zt' 
+        leftReliantConsonants[1] = 'rt' 
+        leftReliantConsonants[2] = 'rk' 
+        leftReliantConsonants[3] = 'rg' 
+        leftReliantConsonants[4] = 'rl'
+        leftReliantConsonants[5] = 'lb'
+        leftReliantConsonants[6] = 'lz'
+        leftReliantConsonants[7] = 'lx'
+        leftReliantConsonants[8] = 'lg'
+        leftReliantConsonants[9] = 'tz'
+        leftReliantConsonants[10] = 'ng'
+        leftReliantConsonants[11] = 'nx'
+        leftReliantConsonants[12] = 'nb'
+        leftReliantConsonants[13] = 'nt'
+        leftReliantConsonants[14] = 'nk'
+
+		var rightReliantConsonants = new Array
+        rightReliantConsonants[0] = 'gr' 
+        rightReliantConsonants[1] = 'gl'
+        rightReliantConsonants[18] = 'tr'
+        rightReliantConsonants[21] = 'kr'
+        rightReliantConsonants[22] = 'kl'
+        
+        var vowel = new Array 
+        vowel[0] = 'ee' 
+        vowel[1] = 'a' 
+        vowel[2] = 'i' 
+        vowel[3] = 'o'
+        vowel[4] = 'u'
+
+        generate(1);
+	</script>
+  </body>
+</html>

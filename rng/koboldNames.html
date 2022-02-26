@@ -1,0 +1,161 @@
+<html>
+  <head>
+	<title>Kobold Name Generator</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../mobile.css">
+    <link rel="stylesheet" href="../rng.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type=text/javascript>
+		function pickOne(data)
+		{ 
+			var index = Math.floor(Math.random() * data.length) 
+			return data[index];
+		}
+
+		function generate(count) {
+	        var ul = document.getElementById("resultsList");
+	        //remove all the existing children of the list
+	        while(ul.firstChild) ul.removeChild(ul.firstChild);
+
+	        for (var n=0;n<count;n++)
+	        {
+	        	var li=document.createElement('li');
+	        	li.innerHTML = li.innerHTML + pickOne(first) + pickOne(second);
+	        	ul.appendChild(li);
+	        }
+		}
+	</script>
+  </head>
+  <body>
+	<div class="bg-image"></div>
+
+	<div class="bg-text">
+		<h1>Kobold Name Generator</h1>
+		<div class="nav-bar">
+			<a href="../rng.html" class="rng-button">Back to generators</a>
+			<a href="../index.html" class="rng-button">Back to home</a>
+		</div>
+		<p>Well yer no supposed tae find this page! This is a name generator for the Kobolds of Sealed World. Since Kobolds aren't playable this is mostly for internal purposes, but since you're here anyway have fun I guess!</p>
+		<div class="rng-bar">
+			<button onclick="generate(1)" class="rng-button">Generate one name</a>
+			<button onclick="generate(10)" class="rng-button">Generate 10 names</a>
+		</div>
+		<ul class="rng-results" id="resultsList">
+		</ul>
+	</div>
+
+  	<script type="text/javascript"> 
+		var first = new Array 
+		first[0] = 'Abh' 
+		first[1] = 'Ach' 
+		first[2] = 'Ad' 
+		first[3] = 'Ail' 
+		first[4] = 'Alas' 
+		first[5] = 'Al' 
+		first[6] = 'Alis' 
+		first[7] = 'Ander' 
+		first[8] = 'And' 
+		first[9] = 'Archi' 
+		first[10] = 'Arg' 
+		first[11] = 'Arg' 
+		first[12] = 'As' 
+		first[13] = 'Bal' 
+		first[14] = 'Bear' 
+		first[15] = 'Beath' 
+		first[16] = 'Ben' 
+		first[17] = 'Bhal' 
+		first[18] = 'Bri' 
+		first[19] = 'Cail'
+		first[20] = 'Cal'
+		first[21] = 'Cath'
+		first[22] = 'Coin'
+		first[23] = 'Con'
+		first[24] = 'Cor'
+		first[25] = 'Cuith'
+		first[26] = 'Daib'
+		first[27] = 'Dan'
+		first[28] = 'Domh'
+		first[29] = 'Dugh'
+		first[30] = 'Ell'
+		first[31] = 'Eird'
+		first[32] = 'Eog'
+		first[33] = 'Faol'
+		first[34] = 'Ferg'
+		first[35] = 'Fion'
+		first[36] = 'Frang'
+		first[37] = 'Fris'
+		first[38] = 'Gil'
+		first[39] = 'Gran'
+		first[40] = 'Goir'
+		first[41] = 'Gord'
+		first[42] = 'Hor'
+		first[43] = 'Isa'
+		first[44] = 'Luc'
+		first[45] = 'Marc'
+		first[46] = 'Mac'
+		first[47] = 'Mart'
+		first[48] = 'Mich'
+		first[49] = 'Mor'
+		first[50] = 'Man'
+		first[51] = 'Ni'
+		first[52] = 'Ragh'
+		first[53] = 'Rai'
+		first[54] = 'Rao'
+		first[55] = 'Rob'
+		first[56] = 'Sam'
+		first[57] = 'Seo'
+		first[58] = 'Sga'
+		first[59] = 'Stea'
+		first[60] = 'Sim'
+		first[61] = 'Tam'
+		first[62] = 'Tas'
+		first[63] = 'Tio'
+		first[64] = 'Tor'
+		first[65] = 'Tom'
+
+        var second = new Array 
+        second[0] = 'ainn' 
+        second[1] = 'aius' 
+        second[2] = 'air' 
+        second[3] = 'an'
+        second[4] = 'al'
+        second[5] = 'ac'
+        second[6] = 'as'
+        second[7] = 'all'
+        second[8] = 'aidh'
+        second[9] = 'bald'
+        second[10] = 'bert'
+        second[11] = 'ebride'
+        second[12] = 'dar'
+        second[13] = 'eck'
+        second[14] = 'eil'
+        second[15] = 'ean'
+        second[16] = 'eal'
+        second[17] = 'gall'
+        second[18] = 'gan'
+        second[19] = 'hidh'
+        second[20] = 'hann'
+        second[21] = 'has'
+        second[22] = 'iel'
+        second[23] = 'las'
+        second[24] = 'mac'
+        second[26] = 'mag'
+        second[27] = 'nard'
+        second[28] = 'nall'
+        second[29] = 'neit'
+        second[30] = 'neach'
+        second[31] = 'rew'
+        second[32] = 'ras'
+        second[33] = 'son'
+        second[34] = 'sidh'
+        second[35] = 'tair'
+        second[36] = 'um'
+        second[37] = 'us'
+        second[38] = 'uel'
+        second[39] = 'yle'
+
+        generate(1);
+	</script>
+  </body>
+</html>

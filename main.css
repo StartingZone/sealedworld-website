@@ -8,6 +8,13 @@ body, html {
 	box-sizing: border-box;
 }
 
+.link {
+	color: #FFF6B0;
+}
+.subdued {
+	color: #B3BCC0;
+}
+
 .bg-image {
 	/*the image*/
 	background-image: url("img/background.png");
