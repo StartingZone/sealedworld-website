@@ -177,3 +177,8 @@ body, html {
 .call-to-action:hover {
 	background-color: #bcf291;
 }
+
+.gallery img {
+	float:left;
+	width:50%;
+}
