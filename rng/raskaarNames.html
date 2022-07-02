@@ -22,9 +22,9 @@
 	        {
 	        	var li=document.createElement('li');
 	        	var first = new Array
-	        	switch(Math.floor(Math.random() * 4)) {
+	        	switch(Math.floor(Math.random() * 2)) {
 	        		case 0:
-	        			first[0] = pickOne(consonant)
+	        			first[0] = pickOne(startConsonant)
 	        			first[1] = pickOne(vowel);
 	        			first[2] = pickOne(consonant);
 	        		break;
@@ -32,29 +32,17 @@
 	        			first[0] = pickOne(vowel)
 	        			first[1] = pickOne(consonant);
 	        			first[2] = pickOne(vowel);
-	        		break;
-	        		case 2:
-	        			first[0] = pickOne(consonant)
-	        			first[1] = pickOne(vowel);
-	        			first[2] = pickOne(consonant);
-	        			first[1] = pickOne(vowel);
-	        		break;
-	        		case 3:
-	        			first[0] = pickOne(vowel)
-	        			first[1] = pickOne(consonant);
-	        			first[2] = pickOne(vowel);
-	        			first[1] = pickOne(consonant);
 	        		break;
 	        	}
 	        	var second = new Array 
 	        	switch(Math.floor(Math.random() * 2)) {
 	        		case 0:
-	        			second[0] = pickOne(consonant);
+	        			second[0] = pickOne(endConsonant);
 	        			second[1] = pickOne(vowel);
 	        		break;
 	        		case 1:
 	        			second[0] = pickOne(vowel);
-	        			second[1] = pickOne(consonant);
+	        			second[1] = pickOne(endConsonant);
 	        		break;
 	        	}
 
@@ -112,6 +100,25 @@
 	</div>
 
 	<script type="text/javascript">
+		var startConsonant = new Array
+		startConsonant[0] = 'n'
+		startConsonant[1] = 't'
+		startConsonant[2] = 'd'
+		startConsonant[3] = 'dh'
+		startConsonant[4] = 'th'
+		startConsonant[5] = 's'
+		startConsonant[6] = 'z'
+		startConsonant[7] = 'v'
+		startConsonant[8] = 'r'
+		startConsonant[9] = 'jh'
+		startConsonant[10] = 'k'
+		startConsonant[11] = 'g'
+		startConsonant[12] = 'kh'
+		startConsonant[13] = 'h'
+		startConsonant[14] = 'sh'
+		startConsonant[15] = 'y'
+		startConsonant[16] = 'bh'
+
 		var consonant = new Array
         consonant[0] = 'n' 
         consonant[1] = 't' 
@@ -122,17 +129,47 @@
         consonant[6] = 'z' 
         consonant[7] = 'v' 
         consonant[8] = 'r'
-        consonant[9] = 'k' 
-        consonant[10] = 'g'
-        consonant[11] = 'kh'
-        consonant[12] = 'h'
-        consonant[13] = 'jh'
+        consonant[9] = 'jh'
+        consonant[10] = 'k'
+        consonant[11] = 'g'
+        consonant[12] = 'kh'
+        consonant[13] = 'h'
+        consonant[14] = 'sh'
+        consonant[15] = 'ty'
+        consonant[16] = 'nt'
+        consonant[17] = 'y'
+        consonant[18] = 'rk'
+        consonant[19] = 'nd'
+        consonant[20] = 'rn'
+        consonant[21] = 'lk'
+        consonant[22] = 'bh'
+
+		var endConsonant = new Array
+		endConsonant[0] = 'n'
+		endConsonant[1] = 't'
+		endConsonant[2] = 'd'
+		endConsonant[3] = 'th'
+		endConsonant[4] = 's'
+		endConsonant[5] = 'z'
+		endConsonant[6] = 'v'
+		endConsonant[7] = 'r'
+		endConsonant[8] = 'k'
+		endConsonant[9] = 'g'
+		endConsonant[10] = 'h'
+		endConsonant[11] = 'sh'
+		endConsonant[12] = 'nt'
+		endConsonant[13] = 'y'
+		endConsonant[14] = 'rk'
+		endConsonant[15] = 'nd'
+		endConsonant[16] = 'rn'
+		endConsonant[17] = 'lk'
         
         var vowel = new Array 
         vowel[0] = 'a'
         vowel[1] = 'a'
         vowel[2] = 'i'
         vowel[3] = 'e'
+        vowel[4] = 'o'
 
         generate(1);
 	</script>
