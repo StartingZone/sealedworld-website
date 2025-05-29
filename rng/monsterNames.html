@@ -1,9 +1,7 @@
 <html>
   <head>
 	<title>Monster Name Generator</title>
-    <link rel="stylesheet" href="../main.css">
-    <link rel="stylesheet" href="../mobile.css">
-    <link rel="stylesheet" href="../rng.css">
+    <link rel="stylesheet" href="../style.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <script type=text/javascript>
@@ -27,23 +25,47 @@
 		}
 	</script>
   </head>
-  <body>
-	<div class="bg-image"></div>
-
-	<div class="bg-text">
+<body>
+  	<div id="wrapper">
+  		<div id="top">
+        <img src="../img/newswlogo.png" alt="Sealed World" class="logo-image">
+  		</div>
+  	<div class="content">
+  	<div id="menu">
+  				<ul>
+            <li class="rng"><a href="../index.html">Home</a></li>
+            <li><h4>Skill Lists</h4></li>
+            <li class="warrior indent"><a href="../skills/warrior.html">Warrior</a></li>
+  					<li class="oracle indent"><a href="../skills/oracle.html">Oracle</a></li>
+            <li class="assassin indent"><a href="../skills/assassin.html">Assassin</a></li>
+            <li class="mage indent"><a href="../skills/mage.html">Mage</a></li>
+            <li class="bard indent"><a href="../skills/bard.html">Bard</a></li>
+            <li class="enchanter indent"><a href="../skills/enchanter.html">Enchanter</a></li>
+            <li class="ranger indent"><a href="../skills/ranger.html">Ranger</a></li>
+            <li class="druid indent"><a href="../skills/druid.html">Druid</a></li>
+            <li><h4>Randomizers</h4></li>
+            <li class="rng indent"><a href="chisianNames.html">Chisian Names</a></li>
+            <li class="rng indent"><a href="humanNames.html">Human Names</a></li>
+            <li class="rng indent"><a href="raskaarNames.html">Raskaar Names</a></li>
+            <li class="rng indent"><a href="raskaarTribes.html">Raskaar Tribe Names</a></li>
+            <li class="rng indent"><a href="goblinNames.html">Goblin Names</a></li>
+            <li class="rng indent"><a href="koboldNames.html">Kobold Names</a></li>
+            <li class="rng indent"><a href="monsterNames.html">Cutesy Monster Names</a></li>
+            <li class="rng indent"><a href="classPicker.html">Character Decider</a></li>
+  				</ul>
+  			</div>
+		<div id="stuff">
 		<h1>Monster Name Generator</h1>
-		<div class="nav-bar">
-			<a href="../rng.html" class="rng-button">Back to generators</a>
-			<a href="../index.html" class="rng-button">Back to home</a>
-		</div>
 		<p>What kind of foul beasts will you be fighting across Khaivarok? Well, ones with names like these!</p>
 		<div class="rng-bar">
-			<button onclick="generate(1)" class="rng-button">Generate one name</a>
-			<button onclick="generate(10)" class="rng-button">Generate 10 names</a>
+			<button onclick="generate(1)" class="rng-button">Generate one name</button></a>
+			<button onclick="generate(10)" class="rng-button">Generate 10 names</button></a>
 		</div>
 		<ul class="rng-results" id="resultsList">
 		</ul>
 	</div>
+</div>
+</div>
 
 	<script type="text/javascript"> 
 		var first = new Array 

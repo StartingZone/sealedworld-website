@@ -1,0 +1,280 @@
+
+/**************************************************/
+/*                                   Body and Wrapper                             */
+/**************************************************/
+
+body {
+background: #111;
+margin: 0;
+padding: 0;
+font: normal 8pt/13pt verdana, arial,sans-serif;
+}
+
+#wrapper {
+margin: 0 auto;
+width: 800px;
+padding: 0;
+text-align: left;
+}
+
+/**************************************************/
+/*                                       Top Piece                                        */
+/**************************************************/
+
+#top {
+width: 800px;
+}
+
+/**************************************************/
+/*                                       Content                                             
+another wrapper that holds all the content                              */
+/**************************************************/
+
+#content {
+width: 766px;
+height: 100%;
+padding: 0px 17px 0px 17px;
+}
+
+.card-row {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4px;
+	overflow: auto;
+}
+
+.card {
+	float: left;
+	width:49%;
+	margin-right: 1%;
+	height: 270px;
+	background-color: rgba(0,0,0,0.6);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card h4, .card p {
+	padding: 8px;
+}
+
+.card img {
+	display: block;
+	margin: auto;
+}
+
+/**************************************************/
+/*                               All the content                                        */
+/**************************************************/
+
+#header {
+background: url(images/header.png) top center no-repeat; 
+width: 730px;
+height: 106px;
+margin: 0px 0px 10px 0px;
+padding: 60px 0px 0px 20px;
+}
+
+#smallheader {
+background: url(images/header-small.png) top center no-repeat; 
+width: 730px;
+height: 64px;
+margin: 0px 0px 10px 0px;
+padding: 0px 0px 0px 20px;
+}
+
+/*                    Menu                   */
+#menu {
+width: 200px;
+height: 100%;
+margin-left: 10px;
+float: left;
+text-align: ;
+}
+
+#menu li a {
+height: 28px;
+voice-family: "\"}\""; 
+voice-family: inherit;
+text-decoration: none;
+text-align: left;
+}
+
+#menu h4 {
+	color: lightgray;
+}
+
+.indent {
+	margin-left: 16px;
+}
+	
+#menu li a:link, #menu li a:visited {
+color: lightgray;
+font-weight: bold;
+display: block;
+padding: 8px 0 0 10px;
+text-align: left;
+}
+	
+#menu li a:hover {
+color: orange;
+padding: 8px 0 0 10px;
+text-align: left;
+}	
+
+ul {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: left;
+}
+
+#stuff {
+width: 520px;
+background-color: #333;
+color: #B3BCC0;
+margin: 0px 0px 0px 220px;
+border: 8px solid #333;
+border-radius: 8px;
+color: #CCC;
+}
+
+#skilllist {
+	width: 520px;
+	margin: 0px 0px 0px 220px;
+}
+
+#stuff a {
+	color: #FFC000;
+	font-weight: bold;
+}
+
+#stuff a:hover {
+	color: white;
+	font-weight: bold;
+}
+
+img {
+	border: none;
+}
+
+.warrior {
+	background-color: #573B28;
+}
+
+.warrior h2 {
+	color: #FF6A00;
+}
+
+.oracle {
+	background-color: #112F2F;
+}
+
+.oracle h2 {
+	color: #00FFFF;
+}
+
+.assassin {
+	background-color: #371A43;
+}
+
+.assassin h2 {
+	color: #B200FF;
+}
+
+.mage {
+	background-color: #331B17;
+}
+
+.mage h2 {
+	color: #D41D00;
+}
+
+.bard {
+	background-color: #423954;
+}
+
+.bard h2 {
+	color: #B288FF;
+}
+
+.enchanter {
+	background-color: #303554;
+}
+
+.enchanter h2 {
+	color: #3B4DBD;
+}
+
+.ranger {
+	background-color: #31412B;
+}
+
+.ranger h2 {
+	color: #267F00;
+}
+
+.druid {
+	background-color: #105727;
+}
+
+.druid h2 {
+	color: #0FE756;
+}
+
+.rng {
+	background-color: #777;
+}
+
+.rng h2 {
+	color: #AAA;
+}
+
+.skillblock {
+	border-radius: 8px;
+	width: 520px;
+	margin: 0px 0px 8px 220px;
+	padding: 10px 10px 10px 10px;
+	border: 2px navy;
+}
+
+.skillblock h2 {
+	float:left;
+	margin-right: 10px;
+}
+
+.skillblock img {
+	float:right;
+}
+
+.skillblock p {
+	color: lightgray;
+}
+
+.skillblock h4 {
+	color: gray;
+}
+
+.rng-results li {
+	font-size: 24px;
+	margin-top: 8px;
+	text-align: center;
+}
+
+#myInput {
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 4px 4px 4px 4px; /* Add some padding */
+  border: 8px solid #FFF; /* Add a grey border */
+  border-radius: 8px;
+}
+
+/**************************************************/
+/*                                       Bottom                                             */
+/**************************************************/
+
+#bottom {
+width: 800px;
+height: 50px;
+}
+

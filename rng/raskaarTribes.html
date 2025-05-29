@@ -1,0 +1,120 @@
+<html>
+  <head>
+	<title>Human Name Generator</title>
+    <link rel="stylesheet" href="../style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type=text/javascript>
+		function pickOne(data)
+		{ 
+			var index = Math.floor(Math.random() * data.length) 
+			return data[index];
+		}
+
+		function generate(count) {
+	        var ul = document.getElementById("resultsList");
+	        //remove all the existing children of the list
+	        while(ul.firstChild) ul.removeChild(ul.firstChild);
+
+	        for (var n=0;n<count;n++)
+	        {
+	        	var li=document.createElement('li');
+	        	li.innerHTML = li.innerHTML + pickOne(first) + pickOne(second);
+	        	ul.appendChild(li);
+	        }
+		}
+	</script>
+  </head>
+<body>
+  	<div id="wrapper">
+  		<div id="top">
+        <img src="../img/newswlogo.png" alt="Sealed World" class="logo-image">
+  		</div>
+  	<div class="content">
+  	<div id="menu">
+  				<ul>
+            <li class="rng"><a href="../index.html">Home</a></li>
+            <li><h4>Skill Lists</h4></li>
+            <li class="warrior indent"><a href="../skills/warrior.html">Warrior</a></li>
+  					<li class="oracle indent"><a href="../skills/oracle.html">Oracle</a></li>
+            <li class="assassin indent"><a href="../skills/assassin.html">Assassin</a></li>
+            <li class="mage indent"><a href="../skills/mage.html">Mage</a></li>
+            <li class="bard indent"><a href="../skills/bard.html">Bard</a></li>
+            <li class="enchanter indent"><a href="../skills/enchanter.html">Enchanter</a></li>
+            <li class="ranger indent"><a href="../skills/ranger.html">Ranger</a></li>
+            <li class="druid indent"><a href="../skills/druid.html">Druid</a></li>
+            <li><h4>Randomizers</h4></li>
+            <li class="rng indent"><a href="chisianNames.html">Chisian Names</a></li>
+            <li class="rng indent"><a href="humanNames.html">Human Names</a></li>
+            <li class="rng indent"><a href="raskaarNames.html">Raskaar Names</a></li>
+            <li class="rng indent"><a href="raskaarTribes.html">Raskaar Tribe Names</a></li>
+            <li class="rng indent"><a href="goblinNames.html">Goblin Names</a></li>
+            <li class="rng indent"><a href="koboldNames.html">Kobold Names</a></li>
+            <li class="rng indent"><a href="monsterNames.html">Cutesy Monster Names</a></li>
+            <li class="rng indent"><a href="classPicker.html">Character Decider</a></li>
+  				</ul>
+  			</div>
+		<div id="stuff">
+		<h1>Raskaar Tribe Name Generator</h1>
+		<p>The Humans from the mountains are smart magic users, and they've got names like this!</p>
+		<div class="rng-bar">
+			<button onclick="generate(1)" class="rng-button">Generate one name</button></a>
+			<button onclick="generate(10)" class="rng-button">Generate 10 names</button></a>
+		</div>
+		<ul class="rng-results" id="resultsList">
+		</ul>
+	</div>
+</div>
+</div>
+	
+	<script type="text/javascript"> 
+		var first = new Array 
+		first[0] = 'Fire' 
+		first[1] = 'Water' 
+		first[2] = 'Wind' 
+		first[3] = 'Earth' 
+		first[4] = 'Sand' 
+		first[5] = 'Sky' 
+		first[6] = 'Cloud' 
+		first[7] = 'Dust' 
+		first[8] = 'Cliff' 
+		first[9] = 'Stone' 
+		first[10] = 'Rock' 
+		first[11] = 'Ground' 
+		first[12] = 'Sun' 
+		first[13] = 'Moon' 
+		first[14] = 'Day' 
+		first[15] = 'Night' 
+		first[16] = 'Dawn' 
+		first[17] = 'Dusk' 
+		first[18] = 'Gale' 
+		first[19] = 'Reed'
+		first[20] = 'Dune'
+		first[21] = 'Flame'
+		first[22] = 'Spark'
+		first[23] = 'Stream'
+		first[24] = 'River'
+
+        var second = new Array 
+        second[0] = 'walker' 
+        second[1] = 'runner' 
+        second[2] = 'taker' 
+        second[3] = 'giver'
+        second[4] = 'seer'
+        second[5] = 'whisper'
+        second[6] = 'watcher'
+        second[7] = 'caller'
+        second[8] = 'feather'
+        second[9] = 'howl'
+        second[10] = 'roar'
+        second[11] = 'biter'
+        second[12] = 'fang'
+        second[13] = 'claw'
+        second[14] = 'paw'
+        second[15] = 'tooth'
+        second[16] = 'caller'
+
+        generate(1);
+	</script>
+  </body>
+</html>
